@@ -5,6 +5,6 @@ from accounts.serializers import AccountSerializer
 
 
 # Create your views here.
-class CreateUserView(CreateAPIView):
+class CreateAccountView(CreateAPIView):
     queryset = Account.objects.all()
     serializer_class = AccountSerializer
